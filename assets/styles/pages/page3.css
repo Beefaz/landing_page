@@ -1,0 +1,32 @@
+@import "../main.css";
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 73px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.detail-title {
+    min-width: 100px;
+    color: var(--color-electric-blue);
+    font-size: 10px;
+    font-family: SF-Pro-display, serif;
+    font-weight: 800;
+}
+
+.detail-text {
+    font-size: 12px;
+    font-family: SF-Pro-text, serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.detail-text strong {
+    font-weight: 700;
+}

@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Nohemi;
+    src: url("../fonts/Nohemi/Nohemi-Regular-BF6438cc4d0e493.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Nohemi;
+    src: url("../fonts/Nohemi/Nohemi-Light-BF6438cc5899919.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Nohemi;
+    src: url("../fonts/Nohemi/Nohemi-SemiBold-BF6438cc588a48a.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Nohemi;
+    src: url("../fonts/Nohemi/Nohemi-Bold-BF6438cc587b5b5.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Nohemi;
+    src: url("../fonts/Nohemi/Nohemi-ExtraBold-BF6438cc5881baf.ttf") format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: SF-Pro-text;
+    src: url("../fonts/SF_Pro_text/SF-Pro-Text-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SF-Pro-text;
+    src: url("../fonts/SF_Pro_text/SF-Pro-Text-Light.otf") format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: SF-Pro-text;
+    src: url("../fonts/SF_Pro_text/SF-Pro-Text-Bold.otf") format("opentype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: SF-Pro-display;
+    src: url("../fonts/SF_Pro_Display/SFPRODISPLAYREGULAR.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SF-Pro-display;
+    src: url("../fonts/SF_Pro_Display/SFPRODISPLAYMEDIUM.otf") format("opentype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: SF-Pro-display;
+    src: url("../fonts/SF_Pro_Display/SFPRODISPLAYBOLD.otf") format("opentype");
+    font-weight: 800;
+}

@@ -1,0 +1,39 @@
+@import "main.css";
+h2 {
+    width: 150px;
+    color: var(--color-electric-blue);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%; /* 26px */
+    letter-spacing: -0.8px;
+}
+
+.img-texture {
+    height: 200px;
+    width: 100%;
+    display: block;
+    margin: 50px 0 68px 0;
+    object-fit: cover;
+    object-position: center;
+    align-self: center;
+    margin-bottom: 65px;
+}
+
+.description {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    font-family: SF-Pro-text, serif;
+    opacity: 0.5;
+    font-size: 12px;
+    line-height: 130%; /* 15.6px */
+    letter-spacing: -0.48px;
+}
+
+.description-title {
+    font-weight: 700;
+}
+
+.description-text {
+    font-weight: 400;
+}

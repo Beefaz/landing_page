@@ -1,0 +1,108 @@
+@import "fonts.css";
+
+:root {
+    --color-electric-blue: #1BFFE4;
+    --color-gray: #383838;
+}
+
+html {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 1);
+    font-family: Nohemi, SF-Pro-text, SF-Pro-display, serif;
+    font-weight: 500;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0 45px 0 50px;
+    margin: 0 auto;
+    min-height: 100vh;
+    max-width: 625px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden-navbar {
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.hidden-navbar a {
+    all: unset;
+    color: transparent;
+    padding: 15px;
+}
+
+.hidden-navbar a:hover {
+    color: white;
+}
+
+header {
+    margin-top: 50px;
+    color: #1BFFE4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Nohemi-Bold, Nohemi, serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.34px;
+}
+
+main {
+    flex: 1 1 100%;
+}
+
+.title-container {
+    margin: 47px 0 58px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px
+}
+
+.page-number {
+    color: var(--color-gray);
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 47px;
+}
+
+footer {
+    margin: 10px 0 42px 0;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13px;
+}
+
+.footer-right {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+}
+
+.footer-right *:not(:last-child):after {
+    content: "|";
+    margin: 0 13px;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: unset;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 47px;
+}
+
